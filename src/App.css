@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  width: 90%;
+  max-width: 650px;
+  margin: 80px auto;
+  padding: 35px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 35px;
+}
+
+.upload-box {
+  padding: 25px;
+  border: 2px dashed #999;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.file-name {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 7px;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
